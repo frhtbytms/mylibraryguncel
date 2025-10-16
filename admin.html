@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Admin - MSB Library</title>
+  <link rel="stylesheet" href="css/genel.css">
+</head>
+<body class="body">
+  <div id="container">
+    <header id="header">
+      <div id="logo"><a href="index.html"><img src="logo.png" alt="logo"></a></div>
+      <nav id="main-nav">
+        <ul>
+          <li><a href="index.html">Anasayfa</a></li>
+          <li><a href="about.html">Hakkımızda</a></li>
+          <li><a href="contact.html">İletişim</a></li>
+          <li><a href="login.html">Giriş</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="content" class="admin-layout">
+      <aside class="admin-sidebar">
+        <ul>
+          <li><a href="#">Panoya Dön</a></li>
+          <li><a href="#">Kullanıcı Yönetimi</a></li>
+          <li><a href="#">Kitap Yönetimi</a></li>
+          <li><a href="#">Ödünç İşlemleri</a></li>
+        </ul>
+      </aside>
+      <section class="admin-main">
+        <h2>Yönetici Paneli</h2>
+        <div class="cards">
+          <div class="card">Toplam Kullanıcı: <strong>124</strong></div>
+          <div class="card">Kütüphanedeki Kitap: <strong>3.452</strong></div>
+          <div class="card">Ödünçte Olan Kitaplar: <strong>38</strong></div>
+        </div>
+
+        <h3>Son İşlemler</h3>
+        <table class="table">
+          <thead><tr><th>ID</th><th>Kullanıcı</th><th>İşlem</th><th>Tarih</th></tr></thead>
+          <tbody>
+            <tr><td>1</td><td>Ahmet</td><td>Kitap ödünç aldı</td><td>2025-10-15</td></tr>
+            <tr><td>2</td><td>Ayşe</td><td>Kitap iade etti</td><td>2025-10-14</td></tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+
+    <footer id="footer"><div class="footer-inner">© 2025 MSB Library</div></footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>İletişim - MSB Library</title>
+  <link rel="stylesheet" href="css/genel.css">
+</head>
+<body class="body">
+  <div id="container">
+    <header id="header">
+      <div id="logo"><a href="index.html"><img src="logo.png" alt="logo"></a></div>
+      <nav id="main-nav">
+        <ul>
+          <li><a href="index.html">Anasayfa</a></li>
+          <li><a href="about.html">Hakkımızda</a></li>
+          <li><a href="contact.html">İletişim</a></li>
+          <li><a href="login.html">Giriş</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="content">
+      <h2>İletişim</h2>
+      <p>Bize aşağıdaki form üzerinden ulaşabilirsiniz. Form şimdilik sadece arayüz amaçlıdır.</p>
+
+      <form class="contact-form" action="#" method="post">
+        <label>İsim
+          <input type="text" name="name" placeholder="İsminiz" required>
+        </label>
+        <label>E-posta
+          <input type="email" name="email" placeholder="mail@ornek.com" required>
+        </label>
+        <label>Konu
+          <input type="text" name="subject" placeholder="Konu">
+        </label>
+        <label>Mesaj
+          <textarea name="message" rows="6" placeholder="Mesajınız"></textarea>
+        </label>
+        <div>
+          <button class="btn" type="submit">Gönder</button>
+        </div>
+      </form>
+
+      <section class="contact-info">
+        <h3>Ofis</h3>
+        <p>MSB Kütüphanesi, Anytown, Turkey</p>
+        <p>Telefon: +90 123 456 7890</p>
+      </section>
+    </main>
+
+    <footer id="footer"><div class="footer-inner">© 2025 MSB Library</div></footer>
+  </div>
+</body>
+</html>
