@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Giriş - MSB Library</title>
+  <title>Profil - MSB Library</title>
   <link rel="stylesheet" href="css/genel.css">
-</head>
+  </head>
 <body class="body">
   <div id="container">
     <header id="header">
@@ -22,18 +22,17 @@
 
     <main id="content">
       <div class="form-card">
-        <h2>Giriş Yap</h2>
-        <form class="login-form" action="#" method="post">
-          <label>E-posta
-            <input type="email" name="email" placeholder="mail@ornek.com" required>
+        <h2>Profil Ayarları</h2>
+        <form class="profile-form">
+          <label>Görünen İsim
+            <input type="text" name="displayName" placeholder="Yeni isim">
           </label>
-          <label>Parola
-            <input type="password" name="password" placeholder="Parolanız (demo: 1234)" required>
+          <label>Yeni Parola
+            <input type="password" name="newPassword" placeholder="Yeni parola (demo, kaydedilmez)">
           </label>
-          <p class="muted">Demo: eğer e-posta 'admin@...' ile başlıyorsa yönetici, diğerleri üye sayfasına yönlendirilir.</p>
           <div class="form-actions">
-            <button class="btn" type="submit">Giriş</button>
-            <a class="link" href="#">Parolamı unuttum</a>
+            <button class="btn" type="submit">Kaydet</button>
+            <a class="link" href="#" data-logout>Çıkış Yap</a>
           </div>
         </form>
       </div>
@@ -41,6 +40,7 @@
 
     <footer id="footer"><div class="footer-inner">© 2025 MSB Library</div></footer>
   </div>
+
   <script src="js/genel.js"></script>
   <script src="js/auth.js"></script>
 </body>

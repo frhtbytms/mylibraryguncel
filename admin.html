@@ -20,7 +20,11 @@
       </nav>
     </header>
 
-    <main id="content" class="admin-layout">
+    <main id="content" class="admin-layout" data-require-role="admin">
+      <div class="top-welcome">
+        <span data-welcome-user></span>
+        <a href="#" data-logout style="margin-left:12px;">Çıkış</a>
+      </div>
       <aside class="admin-sidebar">
         <ul>
           <li><a href="#">Panoya Dön</a></li>
@@ -50,5 +54,7 @@
 
     <footer id="footer"><div class="footer-inner">© 2025 MSB Library</div></footer>
   </div>
+  <script src="js/genel.js"></script>
+  <script src="js/auth.js"></script>
 </body>
 </html>
